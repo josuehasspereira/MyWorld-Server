@@ -1,0 +1,89 @@
+[20:12:04] [ServerMain/INFO]: Building unoptimized datafixer
+[20:12:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:12:05] [ServerMain/ERROR]: Couldn't load pack metadata
+com.google.gson.JsonParseException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at alz.a(SourceFile:512) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:562) ~[server-1.19.2.jar:?]
+	at alz.a(SourceFile:570) ~[server-1.19.2.jar:?]
+	at ahi.a(SourceFile:74) ~[server-1.19.2.jar:?]
+	at ahi.a(SourceFile:66) ~[server-1.19.2.jar:?]
+	at ahw.a(SourceFile:36) ~[server-1.19.2.jar:?]
+	at ahv.a(SourceFile:40) ~[server-1.19.2.jar:?]
+	at ahy.g(SourceFile:44) ~[server-1.19.2.jar:?]
+	at ahy.a(SourceFile:37) ~[server-1.19.2.jar:?]
+	at net.minecraft.server.MinecraftServer.a(SourceFile:1322) ~[server-1.19.2.jar:?]
+	at abt$b.a(SourceFile:59) ~[server-1.19.2.jar:?]
+	at abt.a(SourceFile:22) ~[server-1.19.2.jar:?]
+	at abu.a(SourceFile:18) ~[server-1.19.2.jar:?]
+	at net.minecraft.server.Main.a(SourceFile:158) ~[server-1.19.2.jar:?]
+	at ad.a(SourceFile:952) ~[server-1.19.2.jar:?]
+	at ad.b(SourceFile:946) ~[server-1.19.2.jar:?]
+	at net.minecraft.server.Main.main(SourceFile:156) ~[server-1.19.2.jar:?]
+	at net.minecraft.bundler.Main.lambda$run$0(Main.java:54) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1562) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1403) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:592) ~[gson-2.8.9.jar:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar:?]
+	at alz.a(SourceFile:510) ~[server-1.19.2.jar:?]
+	... 18 more
+[20:12:05] [ServerMain/WARN]: Couldn't find pack meta for pack file/bukkit
+[20:12:06] [ServerMain/INFO]: Loaded 7 recipes
+[20:12:07] [ServerMain/INFO]: Loaded 1179 advancements
+[20:12:07] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[20:12:07] [Server thread/INFO]: Loading properties
+[20:12:07] [Server thread/INFO]: Default game type: SURVIVAL
+[20:12:07] [Server thread/INFO]: Generating keypair
+[20:12:07] [Server thread/INFO]: Starting Minecraft server on 127.0.0.1:25565
+[20:12:07] [Server thread/INFO]: Using default channel type
+[20:12:08] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:12:08] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:12:08] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:12:08] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:12:08] [Server thread/INFO]: Preparing level "world"
+[20:12:08] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[20:12:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:12:10] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[20:12:10] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[20:12:10] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[20:12:10] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[20:12:10] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[20:12:11] [Worker-Main-11/INFO]: Preparing spawn area: 9%
+[20:12:11] [Server thread/INFO]: Time elapsed: 3448 ms
+[20:12:11] [Server thread/INFO]: Done (3.658s)! For help, type "help"
+[20:13:20] [Server thread/INFO]: L0rdHass[/127.0.0.1:50771] logged in with entity id 572 at (-173.95155720047904, 63.0, 40.67510730833398)
+[20:13:20] [Server thread/INFO]: L0rdHass joined the game
+[20:13:24] [Server thread/INFO]: LFRhmlol[/127.0.0.1:50774] logged in with entity id 638 at (0.18953996261257555, 56.0, 0.6596070669404461)
+[20:13:24] [Server thread/INFO]: LFRhmlol joined the game
+[20:41:23] [Server thread/INFO]: LFRhmlol was shot by L0rdHass
+[21:11:36] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-39, y=50, z=-44} gt{x=-40, y=49, z=-43}
+[21:13:20] [Server thread/INFO]: LFRhmlol lost connection: Disconnected
+[21:13:20] [Server thread/INFO]: LFRhmlol left the game
+[21:17:56] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-40, y=52, z=-54} gt{x=-40, y=51, z=-56}
+[21:17:56] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-40, y=52, z=-54} gt{x=-40, y=51, z=-56}
+[21:18:06] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:06] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:06] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:06] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:18:07] [Server thread/WARN]: Mismatch in destroy block pos: gt{x=-41, y=50, z=-58} gt{x=-44, y=50, z=-58}
+[21:25:39] [Server thread/INFO]: L0rdHass lost connection: Disconnected
+[21:25:39] [Server thread/INFO]: L0rdHass left the game
+[21:39:41] [Server thread/INFO]: Stopping the server
+[21:39:41] [Server thread/INFO]: Stopping server
+[21:39:41] [Server thread/INFO]: Saving players
+[21:39:41] [Server thread/INFO]: Saving worlds
+[21:39:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:39:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:39:42] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:39:42] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
